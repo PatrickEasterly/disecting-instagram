@@ -1,8 +1,9 @@
 * {
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 #comment-section {
-    height: 600px;
+    height: 400px;
     position: relative;
 }
 .sidebar-header > * {
@@ -29,8 +30,14 @@
 .conversation {
     padding: 20px;
     width: 335px;
+    display: inline-block;
 }
-
+.conversation > * {
+    display: inline-block;
+}
+.conversation .username, .conversation p {
+    display: inline;
+}
 .profile-pic {
     background-image: url(../images/10731800_1493307807620537_1378917932_a.jpg);
     background-size: cover;
@@ -43,7 +50,7 @@
     display: inline-block;
     color: gray;
     padding: 15px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .actions {
@@ -56,4 +63,10 @@
 }
 .push-right {
     float: right;
+}
+.comment-input {
+    /* border: 1px solid green; */
+    padding: 8px;
+    border-top: 1px solid gray;
+    width: 100%;
 }
