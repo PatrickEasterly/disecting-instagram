@@ -1,0 +1,22 @@
+* {
+    outline: 1px solid red;
+}
+html {
+    outline: none;
+}
+.sidebar-header > * {
+    display: inline-block;
+    /* border: 1px solid plum; */
+}
+.sidebar-header {
+    /* border: 1px solid blue; */
+}
+
+.profile-pic {
+    background-image: url(../images/10731800_1493307807620537_1378917932_a.jpg);
+    background-size: cover;
+    /* background-size: cover keeps the aspect ratio, but resizes to fit */
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
