@@ -5,27 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Instaclone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 <body>
 
-    <div class="sidebar-header">
-        <!-- container -->
-        <div class="profile-pic"> 
-            <!-- profile pic -->
+    <div id="comment-section">
+        <div class="sidebar-header">
+            <!-- container -->
+            <div class="profile-pic"> 
+                <!-- profile pic -->
+            </div>
+            <div class="username">
+                <!-- username -->
+                Pat's username •
+            </div>
+            <a href="#">
+                <!-- follow link --> Follow
+            </a>
+            <a href="#" class="push-right">
+                <!-- <i class="fas fa-ellipsis-h"></i> -->
+                <strong>...</strong>
+                </a>
         </div>
-        <div>
-            <!-- username -->
-            Pat's username
+    
+        <div class="conversation">
+            <div class="profile-pic"> 
+                <!-- profile pic -->
+            </div>
+                <div class="username">
+                    <!-- username -->
+                    Pat's username 
+                </div>
+                <div id="comments">
+                    <p>
+                        1. La la la...
+                        <br>
+                        2. Hey, what's that?
+                        <br>
+                        3. Seriously?
+                    </p>
+                </div>
         </div>
-        <a href="#">
-            <!-- follow link --> Follow
-        </a>
-        <a href="#">
-            ...
-        </a>
-    </div>
+    
+    
+        <div class="actions">
+            <!-- like button -->
+            <a href="#">
+                <i class="far fa-heart"></i>
+            </a>
+            <!-- comment button  -->
+            <a href="">
+                <i class="far fa-comment"></i>
+            </a>
+            <!-- share button  -->
+            <a href="#">
+                <i class="far fa-share-square"></i>
+            </a>
+            <!-- bookmark button  -->
+            <a href="#" class="push-right">
+                <i class="far fa-bookmark"></i>
+            </a>
+            <!-- comment box -->
+            <input type="text" placeholder="Add a comment...">
+            <button>Post</button>
+        </div>
 
+    </div>
 
 
 
